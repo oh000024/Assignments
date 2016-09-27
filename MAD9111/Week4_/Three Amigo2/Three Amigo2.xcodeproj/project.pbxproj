@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD5632631D99CE4900DA637F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5632621D99CE4900DA637F /* AppDelegate.swift */; };
-		CD56326A1D99CE4900DA637F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5632691D99CE4900DA637F /* Assets.xcassets */; };
-		CD56326D1D99CE4900DA637F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */; };
-		CD5632751D99CEB200DA637F /* ThreeAmigo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */; };
-		CD8A2A031D9A0AE100DF5B7D /* mascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */; };
+		CD1AAD861D92B44700908C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AAD851D92B44700908C08 /* AppDelegate.swift */; };
+		CD1AAD881D92B44700908C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AAD871D92B44700908C08 /* ViewController.swift */; };
+		CD1AAD8B1D92B44700908C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1AAD891D92B44700908C08 /* Main.storyboard */; };
+		CD1AAD8D1D92B44700908C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1AAD8C1D92B44700908C08 /* Assets.xcassets */; };
+		CD1AAD901D92B44700908C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1AAD8E1D92B44700908C08 /* LaunchScreen.storyboard */; };
+		CD1AAD981D92BED700908C08 /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AAD971D92BED700908C08 /* MascotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD56325F1D99CE4900DA637F /* Three Amigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD5632621D99CE4900DA637F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD5632691D99CE4900DA637F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD56326C1D99CE4900DA637F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CD56326E1D99CE4900DA637F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThreeAmigo.storyboard; sourceTree = "<group>"; };
-		CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mascotViewController.swift; sourceTree = "<group>"; };
+		CD1AAD821D92B44700908C08 /* Three Amigo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1AAD851D92B44700908C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1AAD871D92B44700908C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1AAD8A1D92B44700908C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1AAD8C1D92B44700908C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1AAD8F1D92B44700908C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1AAD911D92B44700908C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1AAD971D92BED700908C08 /* MascotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD56325C1D99CE4900DA637F /* Frameworks */ = {
+		CD1AAD7F1D92B44700908C08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD5632561D99CE4900DA637F = {
+		CD1AAD791D92B44700908C08 = {
 			isa = PBXGroup;
 			children = (
-				CD5632611D99CE4900DA637F /* Three Amigo */,
-				CD5632601D99CE4900DA637F /* Products */,
+				CD1AAD841D92B44700908C08 /* Three Amigo2 */,
+				CD1AAD831D92B44700908C08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD5632601D99CE4900DA637F /* Products */ = {
+		CD1AAD831D92B44700908C08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD56325F1D99CE4900DA637F /* Three Amigo.app */,
+				CD1AAD821D92B44700908C08 /* Three Amigo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD5632611D99CE4900DA637F /* Three Amigo */ = {
+		CD1AAD841D92B44700908C08 /* Three Amigo2 */ = {
 			isa = PBXGroup;
 			children = (
-				CD5632621D99CE4900DA637F /* AppDelegate.swift */,
-				CD5632691D99CE4900DA637F /* Assets.xcassets */,
-				CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */,
-				CD56326E1D99CE4900DA637F /* Info.plist */,
-				CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */,
-				CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */,
+				CD1AAD851D92B44700908C08 /* AppDelegate.swift */,
+				CD1AAD971D92BED700908C08 /* MascotViewController.swift */,
+				CD1AAD871D92B44700908C08 /* ViewController.swift */,
+				CD1AAD891D92B44700908C08 /* Main.storyboard */,
+				CD1AAD8C1D92B44700908C08 /* Assets.xcassets */,
+				CD1AAD8E1D92B44700908C08 /* LaunchScreen.storyboard */,
+				CD1AAD911D92B44700908C08 /* Info.plist */,
 			);
-			path = "Three Amigo";
+			path = "Three Amigo2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD56325E1D99CE4900DA637F /* Three Amigo */ = {
+		CD1AAD811D92B44700908C08 /* Three Amigo2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD5632711D99CE4900DA637F /* Build configuration list for PBXNativeTarget "Three Amigo" */;
+			buildConfigurationList = CD1AAD941D92B44700908C08 /* Build configuration list for PBXNativeTarget "Three Amigo2" */;
 			buildPhases = (
-				CD56325B1D99CE4900DA637F /* Sources */,
-				CD56325C1D99CE4900DA637F /* Frameworks */,
-				CD56325D1D99CE4900DA637F /* Resources */,
+				CD1AAD7E1D92B44700908C08 /* Sources */,
+				CD1AAD7F1D92B44700908C08 /* Frameworks */,
+				CD1AAD801D92B44700908C08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Three Amigo";
-			productName = "Three Amigo";
-			productReference = CD56325F1D99CE4900DA637F /* Three Amigo.app */;
+			name = "Three Amigo2";
+			productName = "Three Amigo2";
+			productReference = CD1AAD821D92B44700908C08 /* Three Amigo2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD5632571D99CE4900DA637F /* Project object */ = {
+		CD1AAD7A1D92B44700908C08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = oh000024;
 				TargetAttributes = {
-					CD56325E1D99CE4900DA637F = {
+					CD1AAD811D92B44700908C08 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CD56325A1D99CE4900DA637F /* Build configuration list for PBXProject "Three Amigo" */;
+			buildConfigurationList = CD1AAD7D1D92B44700908C08 /* Build configuration list for PBXProject "Three Amigo2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,46 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CD5632561D99CE4900DA637F;
-			productRefGroup = CD5632601D99CE4900DA637F /* Products */;
+			mainGroup = CD1AAD791D92B44700908C08;
+			productRefGroup = CD1AAD831D92B44700908C08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD56325E1D99CE4900DA637F /* Three Amigo */,
+				CD1AAD811D92B44700908C08 /* Three Amigo2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD56325D1D99CE4900DA637F /* Resources */ = {
+		CD1AAD801D92B44700908C08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD56326D1D99CE4900DA637F /* LaunchScreen.storyboard in Resources */,
-				CD56326A1D99CE4900DA637F /* Assets.xcassets in Resources */,
-				CD5632751D99CEB200DA637F /* ThreeAmigo.storyboard in Resources */,
+				CD1AAD901D92B44700908C08 /* LaunchScreen.storyboard in Resources */,
+				CD1AAD8D1D92B44700908C08 /* Assets.xcassets in Resources */,
+				CD1AAD8B1D92B44700908C08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD56325B1D99CE4900DA637F /* Sources */ = {
+		CD1AAD7E1D92B44700908C08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8A2A031D9A0AE100DF5B7D /* mascotViewController.swift in Sources */,
-				CD5632631D99CE4900DA637F /* AppDelegate.swift in Sources */,
+				CD1AAD881D92B44700908C08 /* ViewController.swift in Sources */,
+				CD1AAD861D92B44700908C08 /* AppDelegate.swift in Sources */,
+				CD1AAD981D92BED700908C08 /* MascotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */ = {
+		CD1AAD891D92B44700908C08 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD56326C1D99CE4900DA637F /* Base */,
+				CD1AAD8A1D92B44700908C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1AAD8E1D92B44700908C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1AAD8F1D92B44700908C08 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -155,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CD56326F1D99CE4900DA637F /* Debug */ = {
+		CD1AAD921D92B44700908C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		CD5632701D99CE4900DA637F /* Release */ = {
+		CD1AAD931D92B44700908C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,25 +258,25 @@
 			};
 			name = Release;
 		};
-		CD5632721D99CE4900DA637F /* Debug */ = {
+		CD1AAD951D92B44700908C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Three Amigo/Info.plist";
+				INFOPLIST_FILE = "Three Amigo2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.oh000024.Three-Amigo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.oh000024.Three-Amigo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		CD5632731D99CE4900DA637F /* Release */ = {
+		CD1AAD961D92B44700908C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Three Amigo/Info.plist";
+				INFOPLIST_FILE = "Three Amigo2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.oh000024.Three-Amigo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.oh000024.Three-Amigo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,25 +285,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD56325A1D99CE4900DA637F /* Build configuration list for PBXProject "Three Amigo" */ = {
+		CD1AAD7D1D92B44700908C08 /* Build configuration list for PBXProject "Three Amigo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD56326F1D99CE4900DA637F /* Debug */,
-				CD5632701D99CE4900DA637F /* Release */,
+				CD1AAD921D92B44700908C08 /* Debug */,
+				CD1AAD931D92B44700908C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD5632711D99CE4900DA637F /* Build configuration list for PBXNativeTarget "Three Amigo" */ = {
+		CD1AAD941D92B44700908C08 /* Build configuration list for PBXNativeTarget "Three Amigo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD5632721D99CE4900DA637F /* Debug */,
-				CD5632731D99CE4900DA637F /* Release */,
+				CD1AAD951D92B44700908C08 /* Debug */,
+				CD1AAD961D92B44700908C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD5632571D99CE4900DA637F /* Project object */;
+	rootObject = CD1AAD7A1D92B44700908C08 /* Project object */;
 }
