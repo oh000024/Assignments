@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CD5632631D99CE4900DA637F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5632621D99CE4900DA637F /* AppDelegate.swift */; };
 		CD56326A1D99CE4900DA637F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5632691D99CE4900DA637F /* Assets.xcassets */; };
-		CD56326D1D99CE4900DA637F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */; };
 		CD5632751D99CEB200DA637F /* ThreeAmigo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */; };
 		CD8A2A031D9A0AE100DF5B7D /* mascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		CD56325F1D99CE4900DA637F /* Three Amigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5632621D99CE4900DA637F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD5632691D99CE4900DA637F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD56326C1D99CE4900DA637F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD56326E1D99CE4900DA637F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThreeAmigo.storyboard; sourceTree = "<group>"; };
 		CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mascotViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				CD5632621D99CE4900DA637F /* AppDelegate.swift */,
 				CD5632691D99CE4900DA637F /* Assets.xcassets */,
-				CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */,
 				CD56326E1D99CE4900DA637F /* Info.plist */,
 				CD5632741D99CEB200DA637F /* ThreeAmigo.storyboard */,
 				CD8A2A021D9A0AE100DF5B7D /* mascotViewController.swift */,
@@ -123,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD56326D1D99CE4900DA637F /* LaunchScreen.storyboard in Resources */,
 				CD56326A1D99CE4900DA637F /* Assets.xcassets in Resources */,
 				CD5632751D99CEB200DA637F /* ThreeAmigo.storyboard in Resources */,
 			);
@@ -142,17 +138,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CD56326B1D99CE4900DA637F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD56326C1D99CE4900DA637F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD56326F1D99CE4900DA637F /* Debug */ = {
