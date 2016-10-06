@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<MAD9014>
+<students>
 	<student student_id="566" student_no="90234555">
 		<first_name>Alex</first_name>
 		<last_name>Mckenna</last_name>
@@ -60,4 +60,4 @@
 		<email>nina.p@school.org</email>
 		<program_code>3013x</program_code>
 	</student>
-</MAD9014>
+</students>
