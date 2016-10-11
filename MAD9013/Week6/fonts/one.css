@@ -1,7 +1,9 @@
-/*San-serif*/
-@import url(https://fonts.googleapis.com/css?family=Istok+Web);
-/*Serif*/
-@import url(https://fonts.googleapis.com/css?family=BioRhyme+Expanded);
+/*San-serif Header*/
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+/*Serif body*/
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+/*@import url('https://fonts.googleapis.com/css?family=Shrikhand');*/
 *{
     padding: 0;
     margin: 0;
@@ -15,15 +17,17 @@ html{
 
 html,body{
     background-color: #d4d4d4;
-    font-family: 'BioRhyme Expanded', serif;
+    font-family: 'Maitree','Georgia', serif;
+/*    font-family: 'Shrikhand', 'Georgia',cursive;*/
 }
 h1{
-    font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web', 'Arial', sans-serif;
     font-size: 3.998rem;
     padding:1rem 2rem;
 }
 h2{
-    font-family: sans-serif;
+/*    font-family: sans-serif;*/
+    font-family: 'Istok Web', 'Arial', sans-serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
 }
@@ -62,7 +66,7 @@ main p:last-child{
 header{
     width:100%;
     border-bottom: 1rem solid black;
-    font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web', 'Arial', sans-serif;
 }
 nav{
     float:left;
